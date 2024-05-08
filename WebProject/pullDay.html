@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pull Day Workout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        *{
+           margin: 0;
+            padding: 0;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            transition: 0.2s linear;
+            text-transform: capitalize;
+            font-family: "poppins", sans-serif;
+        }
+        body{
+            min-height: 500vh;
+            background-image:linear-gradient(rgb(224, 218, 218),lightblue);
+        }
+        
+
+        .navbar{
+            position: fixed;
+            top: 0;
+            right:0% ;
+            width: 100%;
+            height: 80px;
+            padding: 0 70px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: 0.5s;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+                  } 
+    
+
+        .navbar .logo {
+            font-size: 22px;
+            font-weight: bolder;
+            color: black;
+            padding-right: 10px;
+            margin-right: 15rem;
+            text-decoration: none;
+                    }
+
+        .navbar .logo i {
+            color: black;
+             padding: 0.5rem;
+                    }
+
+        .navbar .links a {
+                position: relative;
+                left:270px;
+                font-size: 1.1rem;
+                margin: 0 1rem;
+                color: black;
+                      }   
+        .navbar .home1{
+                position: relative;
+                right: 1%;
+                font-size: 1.1rem;
+                margin: 0 1rem;
+                color: black;
+    }
+
+        .navbar .links a:hover {
+         color: #baa6cf;
+          }     
+        .card {
+             position: absolute;
+             left: 29%;
+             top: 140px;
+             margin:0;
+             padding:0;
+             width: 500px;
+             background: #e7e6e6;
+             border-radius: 12px;
+             text-align: center;
+             box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
+             height: 200px;
+             margin-top: 11px;
+             }
+
+             .a{
+                position: absolute;
+                left: 2%;
+                display: inline;
+             }
+             .b{
+                position: absolute;
+                right: 11%;
+                display: inline;
+             }
+               .Swork{
+                
+                position: absolute;
+                right: 1%;
+                top: 60px;
+                padding-left: 20px;
+               }
+             .Swork h4{
+                display: inline;
+                color: black;
+                font-size:15px ;
+                font-family:Courier, monospace;
+                font-weight: 300;   
+             }
+             .Gmuscles{
+                position: absolute;
+                left: 1%;
+                top: 60px;
+                padding-left: 20px;
+             }
+
+             .Gmuscles h4{
+                display: inline;
+                color: black;
+                font-size:15px ;
+                font-family:Courier, monospace;
+                font-weight: 300;
+             }
+
+             a{
+                color: #fff;
+             }
+
+            a:hover {
+              text-decoration: underline;
+              color: #baa6cf;
+                   }
+
+        .card p{
+            position: absolute;
+            left:2%;
+            font-weight: 400;
+            font-size: 20px;
+            
+            
+        }
+        .container .title{
+            text-align: center;
+            font-weight: 300;
+            text-transform: uppercase;
+            font-size: 34px;
+            margin-bottom: 24px;
+            font-family:"Roboto",sans-serif;
+           
+        }
+
+        .videos{
+            position: absolute;
+            top: 370px;
+            left: 2%;
+
+        }  
+        
+        
+
+        
+        
+    </style>
+</head>
+<body>
+
+    <header class="header">  
+    <nav class="navbar" id="navbar">
+        <a class="logo">
+            <i class="fas fa-dumbbell"></i>FITME   
+        </a>
+        <div class="links">
+            <a href="#">|</a>
+            <a href="HomePage.html">Home</a>
+          </div>
+          <div class="home1">
+            <i class="fa-solid fa-house"></i>
+          </div>
+        
+
+    </nav>
+    </header>
+    <div class="container">
+       <div class="title">
+        <br><br>
+        <h2>Pull workout day</h2>
+        </div>
+        <div class="card">
+            <br>
+            <h3 class="a">Pull Muscles Group:</h3>
+            <h3 class="b">Workout name:</h3>
+            <br><br><br>
+
+            <div class="Swork">
+                <ul>   
+            <a href="#BENT-OVER BARBELL ROW"><h4><li>BENT-OVER BARBELL ROW</h4></li></a>    
+            <a href="#CABLE LAT PULLOVER"><h4><li>CABLE LAT PULLOVER</h4></li></a>
+            <a href="#SINGLE ARM DUMBBELL ROW"><h4><li>SINGLE ARM DUMBBELL ROW</h4></li></a>
+            <a href="#INCLINE DUMBBELL CURL"><h4><li>INCLINE DUMBBELL CURL</h4></li></a>
+            <a href="#SEATED CABLE ROW"><h4><li>SEATED CABLE ROW</h4></li></a>
+            <a href="#Forearm Workout"><h4><li>Forearm  Workout</h4></li></a>
+            <a href="#EZ Bar Curls"><h4><li>EZ Bar Curls</h4></li></a>
+        </ul>
+             </div>
+             <div class="Gmuscles">
+             <ul>
+              <h4><li>Back</h4></li>
+              <h4><li>Biceps</h4></li>     
+              <h4><li>forearms</h4></li>
+            </ul>
+        </div>
+        </div>
+        <div class="videos"> 
+            <ul>
+
+         
+            <li><p id="BENT-OVER BARBELL ROW">BENT-OVER BARBELL ROW</p>
+        <br>
+        <iframe width="560"
+         height="315"
+          src="https://www.youtube.com/embed/FWJR5Ve8bnQ?si=svZq_MpSnCS06GaE" 
+          title="YouTube video player" 
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br>
+        </li>
+
+        <li><p id="CABLE LAT PULLOVER">CABLE LAT PULLOVER</p>
+        <br>
+        <iframe width="560"
+         height="315"
+         src="https://www.youtube.com/embed/32auHIqgEoM?si=VZDZ3L7CDDtfyDoA" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <br><br>
+            </li>
+
+        <li><p id="SINGLE ARM DUMBBELL ROW">SINGLE ARM DUMBBELL ROW</p>
+          <br>
+          <iframe width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/dFzUjzfih7k?si=su-8GersGaYqjfMG" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <br><br>
+        </li>
+
+        <li><p id="INCLINE DUMBBELL CURL">INCLINE DUMBBELL CURL</p>
+            <br>
+            <iframe width="560"
+             height="315" 
+             src="https://www.youtube.com/embed/HhHHBj3qTJ4?si=yLRo74wXuTRJozGe" 
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <br><br>
+        </li>
+
+        <li><p id="SEATED CABLE ROW">SEATED CABLE ROW</p>
+        <br>
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/PzsMitRdI_8?si=3uQCa0n5oRtErLmk"
+         title="YouTube video player" 
+         frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br>
+        </li>
+
+        <li><p id="Forearm Workout">Forearm Workout</p>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ypfd1kaI1AU?si=S3ddF8GiHVcspSlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <br><br>   
+        </li>
+
+        <li><p id="EZ Bar Curls">EZ Bar Curls</p>
+        <br>
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/6LrOTcr595A?si=NGdzrM48mNgXAQFm" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br> 
+
+        </li>
+
+
+      </ul>
+      </div>
+    </div>
+
+    <script>
+      var prevScrollPos = window.pageYOffset;
+      var navbar = document.getElementById("navbar");
+
+      window.addEventListener("scroll", function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+         navbar.style.top = "0";
+        } else {
+         navbar.style.top = "-80px"; /* Hide the navbar above the viewport when scrolling down */
+  }
+  prevScrollPos = currentScrollPos;
+});
+    </script>
+    
+</body>
+</html>

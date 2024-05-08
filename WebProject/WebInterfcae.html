@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>WebInterFace</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            transition: 0.2s linear;
+            text-transform: capitalize;
+            font-family: "poppins", sans-serif;
+        }
+
+        body{
+            margin: 0;
+            padding: 0; 
+            justify-content: center;
+            align-items: center;
+            background:url(Give\ Up\ \(2\).png)no-repeat;
+            background-size: cover; 
+            background-position: center;
+            min-height: 100vh;                     
+        }
+
+        .btn{
+            margin-top: 2rem;
+            width: 150px;
+            padding: 12px;
+            color: #fff;
+            background: tomato;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background: rgba(212, 48, 48, 0.76);
+            transition: 0.4s;
+
+        }
+        /* header */
+        .header{
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1000;
+          padding: 1.5rem 8%;
+          display: flex;
+          align-items: center;
+          color: #fff;
+          justify-content: space-between;
+        }
+
+        .header .logo{
+            font-size: 22px;
+            font-weight: bolder;
+            color: #fff;
+            padding-right: 10px;
+            margin-right: 15rem;
+
+        }
+        .header .logo i{
+            color: #fff;
+            padding: 0.5rem;
+             
+        }
+        .header .navbar a{
+            font-size: 1.1rem;
+            margin: 0 1rem;
+            color: #fff;
+
+        }
+        .header .navbar a:hover{
+            color: #baa6cf;
+
+        }
+        .header .btn{
+            background: transparent;
+            color: tomato;
+            border: 1px solid tomato;
+            font-size: 12px;
+            padding: 8px;
+
+        }
+
+        .max-Width{
+            max-width: 1300px;
+            padding: 0 80px;
+            margin: auto;
+        }
+
+        section{
+                padding: 50px 0 50px 0;
+        }
+
+        .home{
+            display: flex;
+            
+        }
+        .home .max-Width{
+            width: 100%;
+            display: flex;
+            top: 140px;
+        }
+
+        .home .home-content{
+            width: 50%;
+            padding: 2rem;    
+        }
+        .home h3{
+            color: #fff;
+            margin-top: 6rem;
+            font-size:5 rem;
+            font-family: "Roboto"; 
+            font-size: 40px; 
+            
+        }
+        .home p{
+            color: rgb(194, 191, 191);
+            margin-top: 1rem;
+            font-size: 15px;
+            
+        }
+
+        
+
+        .home .home-image{
+            width: 50%;
+
+        }
+        .home .home-content img{
+            width: 100%;
+            height: 100%;
+
+        }
+    </style>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+   
+</head>
+<body>
+
+    <header class="header">
+        <a class="logo">
+            <i class="fas fa-dumbbell"></i>FITME
+            
+        </a>
+    <nav class="navbar">
+        <a href="AboutUs.html">About Us</a>
+        <a>|</a>
+        <a href="signIn.html">Sign In</a>
+        <a href="SignUp.html" class="btn">Sign Up</a>
+
+    </nav>
+    </header>
+
+    <section class="home">
+        <div class="max-Width">
+            <div class="home-content">
+                <h3>IT'S ALL ABOUT WHAT<br> YOU CAN ACHIEVE</h3>
+
+                <p>Empower your self to make the changes you need to make</p>
+
+                <a href="HomePage.html"><button class="btn">Get Started</button></a>
+            </div>
+           
+        </div>
+    </section>
+    
+</body>
+</html>
