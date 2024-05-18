@@ -53,7 +53,7 @@ Before you can run this application, you need to have the following software ins
 
 1. **Clone the repository:**
 ```
-git clone https://github.com/MushalMohammed1/my-website.git
+git clone -b master https://github.com/MushalMohammed1/my-website.git
 ```
 2. **Navigate to the project directory:**
 ```
